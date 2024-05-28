@@ -21,7 +21,7 @@ pdf_mapping = {
     ("Option 1.2", "Option 2.3", "Option 3.4"): "https://github.com/mickee00000/201951090_Research_Internship_2022/raw/main/Report%20&%20Presentation/Project_Report_Summer%20Research%20Intership%202022%20.pdf"
 }
 
-pdf_url = pdf_mapping.get((selected_option_1, selected_option_2, selected_option_3, selected_option_4))
+pdf_url = pdf_mapping.get((selected_option_1, selected_option_2, selected_option_3))
 
 if (selected_option_1, selected_option_2, selected_option_3, selected_option_4) == ("Select an Option","Select an Option","Select an Option"):
     st.write("Select the listed options above to generate a PDF")
