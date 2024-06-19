@@ -12,7 +12,7 @@ selected_option_3 = st.selectbox("Have you chosen your optional:", options_set_3
 selected_option_4 = st.selectbox("Have you appeared for UPSC:", options_set_3)
 selected_option_5 = st.selectbox("Are you familiar with UPSC Curriculum", options_set_3)
 
-pdf_url = "https://github.com/mickee00000/201951090_Research_Internship_2022/raw/main/Report%20&%20Presentation/Project_Report_Summer%20Research%20Intership%202022%20.pdf"
+pdf_url = "https://github.com/manjot-testbook/study-planner/raw/main/SuperBatch_5%20_Hinglish%202025%20Brochure%20UPSC%20(8)_compressed_English_1717838082.pdf"
 
 pdf_mapping = {
     (opt1, opt2, opt3, opt4, opt5): pdf_url
