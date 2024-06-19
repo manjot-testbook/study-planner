@@ -2,7 +2,7 @@ import streamlit as st
 
 options_set_1 = ["Select an Option", "Full time Aspirant", "Working Professional", "College going student"]
 options_set_2 = ["Select an Option", "2 - 4 hours", "4 - 6 hours", "6 - 8 hours"]
-options_set_3 = ["Yes", "No"]
+options_set_3 = ["Select an Option", "Yes", "No"]
 
 st.title("Study Plan Creator")
 
@@ -18,9 +18,9 @@ pdf_mapping = {
     (opt1, opt2, opt3, opt4, opt5): pdf_url
     for opt1 in options_set_1[1:] 
     for opt2 in options_set_2[1:] 
-    for opt3 in options_set_3  
-    for opt4 in options_set_3 
-    for opt5 in options_set_3 
+    for opt3 in options_set_3[1:]   
+    for opt4 in options_set_3[1:]  
+    for opt5 in options_set_3[1:]  
 }
 
 selected_options = (selected_option_1, selected_option_2, selected_option_3, selected_option_4, selected_option_5)
