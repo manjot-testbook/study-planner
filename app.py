@@ -16,11 +16,11 @@ pdf_url = "https://github.com/mickee00000/201951090_Research_Internship_2022/raw
 
 pdf_mapping = {
     (opt1, opt2, opt3, opt4, opt5): pdf_url
-    for opt1 in options_set_1[1:]  # Skip "Select an Option"
-    for opt2 in options_set_2[1:]  # Skip "Select an Option"
-    for opt3 in options_set_3  # Include all options for set 3
-    for opt4 in options_set_3  # Include all options for set 3
-    for opt5 in options_set_3  # Include all options for set 3
+    for opt1 in options_set_1[1:] 
+    for opt2 in options_set_2[1:] 
+    for opt3 in options_set_3  
+    for opt4 in options_set_3 
+    for opt5 in options_set_3 
 }
 
 selected_options = (selected_option_1, selected_option_2, selected_option_3, selected_option_4, selected_option_5)
